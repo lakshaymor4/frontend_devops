@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = 'http://localhost:8081';
+axios.defaults.baseURL = 'http://springboot-backend:8081';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 const userUrl = "/api/v1/users";
